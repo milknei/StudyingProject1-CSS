@@ -1,8 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap'); */
-
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../font/Roboto-Regular.ttf'), url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+}
+
+a {
+    cursor: pointer;
 }
 
 div {
