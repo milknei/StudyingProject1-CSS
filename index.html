@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Danylo Klymenko" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Supabase</title>
+</head>
+
+<body>
+    <header id="header">    
+            <nav id="header-nav">
+                <ul id="nav-list">
+                    <li class="nav-li" id="header-logo"><img src="./img/logo.png" alt="Logo" /></li>
+                    <li class="nav-li dropdown-menu">Product</li>
+                    <li class="nav-li dropdown-menu" class="dropdown-menu">Developers</li>
+                    <li class="nav-li">Beta</li>
+                    <li class="nav-li">Pricing</li>
+                </ul>
+                <div id="header-buttons">
+                    <ul id="button-list">
+                        <li><button class="start-btn">Start your project</button></li>
+                        <li><button id="sign-in">Sign in</button></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <section id="storage">
+            <div id="storage-about">
+                <div id="storage-title">
+                    <div class="icon-background" id="storage-icon">
+                    </div>
+                    <span>Storage</span>
+                </div>
+                <h1>Store and serve <br /> any type of digital content</h1>
+                <div id="storage-description">
+                    <p>An open source Object store service with unlimited scalability, for any file type.</p>
+                    <p>With custom policies and permissions that are familiar and easy to implement.</p>
+                </div>
+                <button id="storage-start-button">Start a project</button>
+            </div>
+            <img src="./img/storage-img.png" alt="supabase presentation">
+            <div id="storage-footer">
+                <div class="storage-footer-subsection">
+                    <div id="storage-footer-icons">
+                        <div class="icon-background" id="light-storage-icon">
+                        </div>
+                        <div class="xcross-icon">
+                            <img src="./img/cross.png" alt="icon" />
+                            <img src="./img/cross.png" alt="icon" />
+                        </div>
+                        <div class="icon-background" id="security-icon">
+                        </div>
+                        <div class="xcross-icon">
+                            <img src="./img/cross.png" alt="icon" />
+                            <img src="./img/cross.png" alt="icon" />
+                        </div>
+                        <div class="icon-background" id="server-icon">
+                        </div>
+                    </div>
+                    <h3>Interoperable</h3>
+                    <p>Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.</p>
+                </div>
+                <div class="storage-footer-subsection">
+                    <img class="storage-smaller-icon" src="./img/connection.png" alt="connection icon" />
+                    <h3>Lightning fast</h3>
+                    <p>Thin API server layer that leverages Postgres' permissions and performance.</p>
+                </div>
+                <div class="storage-footer-subsection">
+                    <img class="storage-smaller-icon" src="./img/done.png" alt="done icon" />
+                    <h3>Dependable</h3>
+                    <p>Enterprise-level scalability and durability.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <header>
+                <h1>Sleek dashboard for managing your media</h1>
+                <h3>A complete Object Explorer so that any of your team can use.</>
+                <p>Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your desktop.</p>
+            </header>
+            <div class="file-gallery" id="view-gallery">
+                <div class="view-buttons">
+                    <button class="button-view">File previews</button>
+                    <button class="button-view">Column view</button>
+                    <button class="button-view">List view</button>
+                    <button class="button-view">Multi select actions</button>
+                    <button class="button-view">Path navigator</button>
+                </div>
+                <img src="./img/view-gal.png" alt="view" />
+            </div>
+            <div id="gallery-description">
+                <div id="file-preview">
+                    <h3>File previews</h3>
+                    <p>Preview any media type, including video and audio.</p>
+                </div>
+                <div id="example-app">
+                    <h3>Check out our example app</h3>
+                    <div id="example-border">
+                        <div id="management-example">
+                            <h4>Profile management example</h4>
+                            <p>Update a user account with public profile information, including uploading a profile image.</p>
+                            <span>Created by:</span>
+                            <span>supabase</span>
+                        </div>
+                        <div id="nextjs-management">
+                            <span>nextjs-ts-user-management</span>
+                            <button class="deploy-button">
+                                <img src="./img/deploy.png" alt="deploy button" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="apis-section">
+            <div class="container-content">
+                <div>
+                    <h2>Simple and convenient APIs</h2>
+                    <p>Built from the ground-up for interoperable authentication.</p>
+                    <p>Fast and easy to implement using our powerful library clients. Asset optimization and image transformation coming soon!</p>
+                </div>
+                <div class="apis-subcontent">
+                    <img src="./img/wifi.png" alt="wifi" />
+                    <h3>CDN integration</h3>
+                    <p>Serve from the edge to reduce latency.</p>
+                    <button>Coming soon</button>
+                </div>
+                <div class="apis-subcontent">
+                    <img src="./img/trans.png" alt="trans" />
+                    <h5>Auto transformation & optimisation</h5>
+                    <p>Resize and compress your media before you serve it.</p>
+                    <button>Coming soon</button>
+                </div>
+            </div>
+            <div class="file-gallery">
+                <div class="view-buttons">
+                    <button>Upload a file </button>
+                    <button>Download a file</button>
+                    <button>List files</button>
+                    <button>Move and rename files</button>
+                    <button>Delete files</button>
+                </div>
+                <div class="bordered-screen">
+                    <img src="./img/apis.png" alt="file preview" />
+                </div>
+            </div>
+        </section>
+        <section class="container" id="auth-section">
+            <div class="container-content"
+            >
+                <div>
+                    <h2>Integrates natively with Supabase Auth</h2>
+                    <p>Using Postgres Row Level Security to create Object access rules.</p>
+                    <p>Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres functions, and even your own metadata to write policies.</p>
+                </div>
+            </div>
+            <div class="file-gallery">
+                <div class="view-buttons">
+                    <button>Public access to a bucket</button>
+                    <button>Public access to a folder</button>
+                    <button>Authenticated access to a bucket</button>
+                </div>
+                <div class="bordered-screen">
+                    <img src="./img/auth.png" alt="file preview" />
+                    <div id="bordered-screen-description">
+                        <h3>Allow public CRUD access to a bucket</h3>
+                        <p>This will allow any user access to the bucket named 'avatars'</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="start-section">
+            <h1><span>Build in a weekend,</span> scale to millions</h1>
+            <button class="start-btn">Start your project</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container" id="superbase-contacts">
+            <div id="icon-links">
+                <img id="footer-logo" src="./img/logo.png" alt="logo" />
+                <a href="#"><img src="./img/twitter.png" alt="twitter" /></a>
+                <a href="#"><img src="./img/detgit.png" alt="github" /></a>
+            </div>
+                <ul class="footer-links">
+                    <li class="links-header"><a href="#">Product</a></li>
+                    <li><a href="#">Database</a></li>
+                    <li><a href="#">Authentication</a></li>
+                    <li><a href="#">Storage</a></li>
+                    <li><a href="#">Functions Coming soon</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <ul class="footer-links">
+                    <li class="links-header"><a href="#">Resources</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">System Status</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                </ul>
+                <ul class="footer-links">
+                    <li class="links-header"><a href="#">Developers</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">API Reference</a></li>
+                    <li><a href="#">Guides</a></li>
+                </ul>
+                <ul class="footer-links">
+                    <li class="links-header"><a href="#">Company</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Open Source</a></li>
+                    <li><a href="#">Humans.txt</a></li>
+                    <li><a href="#">Lawyers.txt</a></li>
+                </ul>
+        </div>
+        <div class="container" id="theme-changer">
+            <span>© Supabase Inc</span>
+            <div id="switch-container">
+                <div id="switch-background">
+                    <div id="switch"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
